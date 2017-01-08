@@ -47,9 +47,20 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     <!-- setup -->
     <a name="setup"></a>
     <div class="scrollblock block-setup">
-        <h2>Setup</h2>
+        <h2>Instalar Modo Gráfico</h2>
         <p>
-            <code>  npm install -g ionic  </code><br />
+
+<code> sudo su </code><br />
+<code> dpkg --configure -a </code><br />
+<code> apt-get -f install </code><br />
+<code> apt-get update </code><br />
+<code> apt-get dist-upgrade </code><br />
+<code> apt-get install --reinstall ubuntu-desktop </code><br />
+<code> apt-get autoremove </code><br />
+<code> apt-get clean </code><br />
+<code> reboot </code><br />
+
+
         </p>
     </div>
     
@@ -57,16 +68,15 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
     <div class="scrollblock block-create">
         <h2>Comandos básicos</h2>
         <p>
-                Crear un Proyecto <br />
-                <code> ionic start todo blank </code><br /> 
+                LS Listar directorio <br />
+                <code> ls /var/folder </code><br /> 
 
-                Configurar la plataforma <br />
-                <code> ionic platform add ios </code><br />
-                <code> ionic platform add android </code><br />
+                CD - (change directory) cambia de directorio <br />
+                <code> cd /home/var1 </code><br />
 
-                 Compilar  <br />
-                <code> ionic build ios </code><br />
-                <code> ionic emulate ios </code><br />
+                 Touch - Crea un archivo vacio <br />
+                <code> touch /var/file.txt </code><br />
+
         </p>                      
     </div>
     
