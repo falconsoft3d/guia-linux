@@ -1,2 +1,2 @@
-# guia-linux
-Guía simple de Linux
+# Guia de uso de Odoo ERP Chile
+Odoo ERP Chile
