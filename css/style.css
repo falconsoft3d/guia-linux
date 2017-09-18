@@ -7,6 +7,10 @@ body {
     padding: 0;
 }
 
+.odoo_logo_plain{
+	width: 30%;
+	}
+
 h1 {
 	font-size: 60px;
 	font-weight: normal;
